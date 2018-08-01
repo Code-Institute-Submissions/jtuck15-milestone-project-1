@@ -1,11 +1,17 @@
+body {
+    font-size: 16px;
+}
+
 /*----------------Nav-------------------*/
 
 img.logo-pic {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     position: relative;
     margin-top: 0;
     padding-top: 0;
+    margin-left: 20px;
+    padding-bottom: 1px;
 }
 
 .navbar-brand {
@@ -23,6 +29,7 @@ img.logo-pic {
 nav.navbar.navbar-inverse {
     width: 100vw;
     border-radius: 0;
+    background-color: #0c0c0c;
 }
 
 .navbar-btn {
@@ -41,6 +48,13 @@ nav.navbar.navbar-inverse {
     color: black;
     background-color: #ed2027;
     border-color: #ed2027;
+}
+
+.navbar-nav li {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 12px;
+    left: 15px;
 }
 
 
@@ -76,11 +90,14 @@ nav.navbar.navbar-inverse {
 
 /*----------------Section-------------------*/
 
-
-
 .music-albums {
     height: 600px;
 }
+
+
+/*----------------Band Section-------------------*/
+
+
 
 .band-members {
     height: 600px;
@@ -91,9 +108,24 @@ nav.navbar.navbar-inverse {
     text-align: center;
 }
 
-.cwatts {
-    transform: scale(1.2);
+
+.media-left {
+    padding-bottom: 30px;
 }
+
+.media-body {
+    padding-bottom: 30px;
+}
+
+.media-object {
+    height: 300px;
+    width: 300px;
+}
+
+.bio {
+    font-size: 1em;
+}
+
 
 
 /*----------------Footer-------------------*/
@@ -110,7 +142,7 @@ nav.navbar.navbar-inverse {
 .footer-pic {
     height: 35vh;
     width: 100vw;
-    position: relative;
+    position: absolute;
     left: 0;
 }
 
@@ -118,6 +150,31 @@ div.row.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
     padding-left: 0;
 }
 
+.social-links {
+    position: relative;
+}
+
+.social-structure {
+    padding-left: 0;
+    padding-top: 75px;
+}
+
+.social-links li a i {
+    width: 45px;
+    height: 45px;
+    padding: 19px 0;
+    border-radius: 50%;
+    font-size: 22px;
+    left: 0;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #868686;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 /*----------------Media Queries-------------------*/
 
@@ -129,6 +186,11 @@ div.row.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
     .footer-pic {
         height: 27.5vh;
     }
+    
+    .media-object {
+        height: 175px;
+        width: 175px;
+}
 }
 
 @media (max-width: 769px) {
@@ -139,6 +201,11 @@ div.row.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
     .footer-pic {
         height: 25vh;
     }
+    
+    .media-object {
+        height: 125px;
+        width: 125px;
+}
 }
 
 @media (max-width: 420px) {
@@ -149,4 +216,9 @@ div.row.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
     .footer-pic {
         height: 17.5vh;
     }
+    
+    .media-object {
+        height: 75px;
+        width: 75px;
+}
 }
