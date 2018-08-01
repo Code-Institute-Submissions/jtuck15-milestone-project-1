@@ -1,0 +1,152 @@
+/*----------------Nav-------------------*/
+
+img.logo-pic {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.navbar-brand {
+    margin-top: 0;
+    padding-top: 5px;
+
+}
+
+.navbar-inverse {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav.navbar.navbar-inverse {
+    width: 100vw;
+    border-radius: 0;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    margin-right: 10px;
+    width: 100px;
+    background-color: #e31e24;
+    border-color: #e31e24;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.navbar-btn:hover {
+    color: black;
+    background-color: #ed2027;
+    border-color: #ed2027;
+}
+
+
+
+/*----------------Header-------------------*/
+
+/*.header-logo {*/
+/*    height: 75vh;*/
+/*    width: 100vw;*/
+/*    background: url("images/rollingstonesheader.png") no-repeat center center fixed; */
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*    position: relative;*/
+/*}*/
+
+.header-logo {
+    margin-left: 0;
+    padding: 0;
+}
+
+.header-pic {
+    width: 100vw;
+    height: 70vh;
+    padding: 0;
+    position: relative;
+    display: block;
+
+
+}
+
+
+/*----------------Section-------------------*/
+
+
+
+.music-albums {
+    height: 600px;
+}
+
+.band-members {
+    height: 600px;
+
+}
+
+.page-header {
+    text-align: center;
+}
+
+.cwatts {
+    transform: scale(1.2);
+}
+
+
+/*----------------Footer-------------------*/
+
+.footer-logo {
+    display: block;
+    /*position: absolute;*/
+    left: 0;
+    bottom: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer-pic {
+    height: 35vh;
+    width: 100vw;
+    position: relative;
+    left: 0;
+}
+
+div.row.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+    padding-left: 0;
+}
+
+
+/*----------------Media Queries-------------------*/
+
+@media (max-width: 993px) {
+    .header-pic {
+        height: 50vh;
+    }
+    
+    .footer-pic {
+        height: 27.5vh;
+    }
+}
+
+@media (max-width: 769px) {
+    .header-pic {
+        height: 40vh;
+    }
+    
+    .footer-pic {
+        height: 25vh;
+    }
+}
+
+@media (max-width: 420px) {
+    .header-pic {
+        height: 22.5vh;
+    }
+    
+    .footer-pic {
+        height: 17.5vh;
+    }
+}

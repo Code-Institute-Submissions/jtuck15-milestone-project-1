@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>The Rolling Stones</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!--Logo-->
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="The tongue logo for the Rolling Stones" class="logo-pic">
+                </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+            </div>
+            <!--Menu-->
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="band.html">Band</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Bookings</a></li>
+                    <li class="visible-xs" data-toggle="modal" data-target="#signUpModal"><a href="#">Sign Up</a></li>
+                </ul>
+                
+                <!--Message-->
+                <div class="navbar-header navbar-right hidden-xs">
+                    <a href="/Login" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+                    <p class="navbar-text"><i>Sign up for monthly updates on events & new music releases!</i></p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!--Start of Header-->
+    <div class="container-fluid">
+        <header class="header-logo">
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <img src="images/rollingstonesheader.png" class="header-pic"></img>
+            </div>
+        </header>
+    </div>
+    <!--End of Header--> 
+    
+    
+    <!--Start of Section-->
+   <div class="container-fluid">
+       <section class="music-albums">
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+                    </div>
+                </div>
+        </section>
+    </div>
+    
+    <!--End of Section-->
+    
+    <!--Start of Footer-->
+    <div class="container-fluid">
+        <footer class="footer-logo">
+            <!--Logo-->
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <img src="images/rollingstonesfooter.jpg" alt="Footer Picture with Rolling Stones Logo" class="footer-pic">
+            </div>
+        </footer>
+    </div>
+    <!--End of Footer-->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Sign Up For Monthly Updates on Events & New Music Releases!</h4>
+          </div>
+          <div class="modal-body">
+    <!--Modal End-->
+    
+    <!--Form Start-->
+        <form>
+            <div class="form-group">
+                <label for="text">Name</label>
+                <input type="text" class="form-control" id="text" placeholder="John">
+            </div>
+            <div class="form-group">
+                <label for="text">Surname</label>
+                <input type="text" class="form-control" id="text" placeholder="Smith">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="joebloggs@example.com">
+                <p class="help-block">We'll never share your email address with any third-party company. </p>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="passwordRepeat">Confirm Password</label>
+                <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
+            </div>
+            <center>
+              <button type="submit" class="btn btn-success">Sign Up!</button>
+            </center>
+        </form>
+    <!--Form End-->
+    
+    
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
