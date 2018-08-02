@@ -10,8 +10,8 @@ img.logo-pic {
     position: relative;
     margin-top: 0;
     padding-top: 0;
-    margin-left: 20px;
-    padding-bottom: 1px;
+    margin-left: 3px;
+    padding-bottom: 3px;
 }
 
 .navbar-brand {
@@ -22,8 +22,8 @@ img.logo-pic {
 
 .navbar-inverse {
     margin-bottom: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 nav.navbar.navbar-inverse {
@@ -37,15 +37,15 @@ nav.navbar.navbar-inverse {
     border-radius: 16px;
     margin-right: 10px;
     width: 100px;
-    background-color: #e31e24;
-    border-color: #e31e24;
+    background-color: #ed2027;
+    border-color: #ed2027;
     color: white;
     font-weight: bold;
     padding: 7px;
 }
 
 .navbar-btn:hover {
-    color: black;
+    color: white;
     background-color: #ed2027;
     border-color: #ed2027;
 }
@@ -140,7 +140,7 @@ nav.navbar.navbar-inverse {
 }
 
 .footer-pic {
-    height: 35vh;
+    height: 37.5vh;
     width: 100vw;
     position: absolute;
     left: 0;
@@ -152,11 +152,20 @@ div.row.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
 
 .social-links {
     position: relative;
+    
 }
 
-.social-structure {
+div.col-xs-12.social-structure {
     padding-left: 0;
-    padding-top: 75px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #ed2027;
+    height: 65px;
+    width: 100vw;
+}
+
+.social-links {
+    
 }
 
 .social-links li a i {
@@ -170,17 +179,43 @@ div.row.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
     text-align: center;
     color: #fafafa;
     background: #868686;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    border: 1px solid black;
+    transition: transform;
+    transition-duration: 0.6s;
 }
+
+.social-links li a i:hover {
+    transform: rotate(360deg);
+}
+
+i.fa.fa-facebook {
+    background-color: #48649f;
+}
+
+i.fa.fa-twitter {
+    background-color: #1da1f2;
+}
+
+i.fa.fa-youtube {
+    background-color: #ff0000;
+}
+
 
 /*----------------Media Queries-------------------*/
 
+@media (max-width: 1300px) {
+    .header-pic {
+        height: 60vh;
+    }
+    
+     .footer-pic {
+        height: 32.5vh;
+    }
+}
+
 @media (max-width: 993px) {
     .header-pic {
-        height: 50vh;
+        height: 40vh;
     }
     
     .footer-pic {
@@ -195,7 +230,7 @@ div.row.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
 
 @media (max-width: 769px) {
     .header-pic {
-        height: 40vh;
+        height: 30vh;
     }
     
     .footer-pic {
