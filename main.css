@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    background-color: #fafafa;
 }
 
 /*----------------Nav-------------------*/
@@ -88,10 +89,24 @@ nav.navbar.navbar-inverse {
 }
 
 
-/*----------------Section-------------------*/
+/*----------------Sections-------------------*/
 
-.music-albums {
+
+
+/*----------------Home-Page Section-------------------*/
+
+.home-page {
     height: 600px;
+}
+
+.carousel-header {
+    background-color: black;
+    width: 100vw;
+}
+
+.home-heading {
+    color: #fff;
+    font-weight: bold;
 }
 
 
@@ -99,13 +114,17 @@ nav.navbar.navbar-inverse {
 
 
 
-.band-members {
-    height: 600px;
+/*.band-members {*/
+/*    height: 600px;*/
 
-}
+/*}*/
 
 .page-header {
     text-align: center;
+}
+
+.page-header h1 {
+    font-weight: bold;
 }
 
 
@@ -124,6 +143,60 @@ nav.navbar.navbar-inverse {
 
 .bio {
     font-size: 1em;
+}
+
+
+/*----------------Bookings Section-------------------*/
+
+.bookings {
+    height: 600px;
+}
+
+
+form {
+    padding: 15px 25px;
+    border: 2px solid #bec3c147;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #eae8e814;
+}
+
+.form-group [type="textarea"] {
+    height: 200px;
+}
+
+button.btn.btn-success {
+    background-color: #ffdc00;
+    border-color: #ffdc00;
+    color: #000;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+}
+
+.help-block {
+    font-size: .6em;
+}
+
+.booking-pic {
+    background: url("images/band1.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    min-height: 200px;
+    min-width: 300px;
+    float: right;
+}
+
+div.col-xs-12.col-sm-5.col-md-5.jumbotron {
+    background-color: #bec3c147;
+}
+
+i.fa.fa-phone-square {
+    color: #07bd07;
+    font-size: 1.2em;
+    padding-right: 3px;
 }
 
 
@@ -240,7 +313,11 @@ i.fa.fa-youtube {
     .media-object {
         height: 125px;
         width: 125px;
-}
+    }
+
+    .booking-pic {
+        margin: auto 0;
+    }
 }
 
 @media (max-width: 420px) {
