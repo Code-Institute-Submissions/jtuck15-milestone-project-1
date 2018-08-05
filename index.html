@@ -14,7 +14,7 @@
 <body>
     
             <!-- Back up to Top Button -->
-    <a href="#" id="homeBtn"><span class="glyphicon glyphicon-menu-up"></span></a>
+    <a href="#" id="homeBtn" class="hidden-lg"><span class="glyphicon glyphicon-menu-up"></span></a>
         <!-- End of Back up to Top Button -->
 
     <nav class="navbar navbar-inverse">
@@ -68,8 +68,19 @@
                <div class="col-xs-12">
                     <div class="page-header">
                         <h1 class="text-center">The Rolling Stones</h1>
-                        <img src="images/RSlogo3.png" alt="Rolling Stones Logo" class="img-circle text-center rs-heading-logo">
                     </div>
+                </div>
+                <div class="col-xs-12">
+                    <img src="images/RSlogo3.png" alt="Rolling Stones Logo" class="img-circle text-center rs-heading-logo">
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+                   <div class="jumbotron text-center website-welcome">
+                       <p class="website-welcome">
+                           Welcome to the Official Website of The Rolling Stones. Take a look around, I hope you get some "Satisfaction" from it!
+                       </p>
+                   </div>
                </div>
            </div>
                 <!--Start of Carousel-->
@@ -117,18 +128,70 @@
     
     <!--End of Section-->
     
-    <!--Start of About-->
+    <!--Start of About Article-->
     
     <div class="container-fluid">
-        <div class="about">
-            
-        </div>
-    </div>
-    
-    <!--End of About-->
-    <div class="container-fluid">
-        <div class="audio-section">
+        <article>
             <div class="row">
+                <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+                    <h2 class="text-center">About The Band</h2>
+                </div>
+                <div class="col-xs-12 col-sm-offset-2 col-sm-8">
+                    <p>
+                        In 1962, one of the most successful and critically acclaimed rock bands of all time, the Rolling Stones 
+                        was started in London. Named after the Muddy Waters song "Rollin' Stone," the original band included 
+                        frontman Mick Jagger, guitarists Keith Richards and Brian Jones, bassist Bill Wyman, drummer Charlie Watts 
+                        and pianist Ian Stewart. Guitarist Ron Wood joined Jagger, Richards and Watts in 1975.
+                        Stewart was removed from the official line-up in 1963 but continued as a touring member until his death in 1985. 
+                        Brian Jones was the original leader of the group. The band's primary songwriters, Jagger and Richards, assumed 
+                        leadership after Andrew Loog Oldham became the group's manager. Their musical focus shifted from covering blues 
+                        songs to writing original material, a decision with which Jones did not agree. Jones left the band less than a 
+                        month before his death in 1969, having already been replaced by Mick Taylor, who remained until 1974. 
+                        <span id="text">
+                        After Taylor left the band, Ronnie Wood took his place in 1975 and continues on guitar in tandem with Richards. 
+                        Following Wyman's departure in 1993, Darryl Jones joined as their touring bassist.
+                        The Rolling Stones were at the forefront of the British Invasion of bands that became popular in the United 
+                        States in 1964 and were identified with the youthful and rebellious counterculture of the 1960s. Rooted in 
+                        blues and early rock and roll, the group began a short period of musical experimentation in the mid-1960s 
+                        that peaked with the psychedelic album Their Satanic Majesties Request (1967). Subsequently, the group 
+                        returned to its "bluesy" roots with Beggars Banquet (1968) which along with its follow-ups Let It Bleed (1969), 
+                        Sticky Fingers (1971) and Exile on Main St. (1972) is generally considered the band's best work and is seen as their 
+                        "Golden Age". The band continued releasing commercially successful albums, including Some Girls (1978) and Tattoo You 
+                        (1981), which were their most popular albums worldwide. From 1983 to 1987 tensions between Jagger and Richards almost 
+                        caused the band to split; however, they overcame their differences and rekindled their friendship after a temporary 
+                        separation to work on solo projects. The Stones experienced a comeback with Steel Wheels (1989), promoted by a large 
+                        stadium and arena tour. Since the 1990s, new recorded material from the group has been less frequent and less 
+                        well-received. Despite this, the Rolling Stones continued to be a huge attraction on the live circuit, with stadium 
+                        tours in the 1990s and 2000s. By 2007, the band had four of the top five highest-grossing concert tours of all time: 
+                        Voodoo Lounge Tour (1994–1995), Bridges to Babylon Tour (1997–1998), Licks Tour (2002–2003) and A Bigger Bang Tour 
+                        (2005–2007).The Rolling Stones were inducted into the Rock and Roll Hall of Fame in 1989 and the UK Music Hall of Fame 
+                        in 2004. Rolling Stone magazine ranked them fourth on the "100 Greatest Artists of All Time" list and their estimated record 
+                        sales are above 250 million. They have released 30 studio albums, 26 live albums and numerous compilations. Let It Bleed 
+                        (1969) marked the first of five consecutive No. 1 studio and live albums in the UK. Sticky Fingers (1971) was the first 
+                        of eight consecutive No. 1 studio albums in the US. In 2008, the band ranked 10th on the Billboard Hot 100 All-Time Top 
+                        Artists chart. In 2012, the band celebrated its 50th anniversary.
+                        </span>
+                        <div class="button-center">
+                            <button type="button" id="toggle" class="btn btn-info">Read More</button>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </article>
+    </div>
+    <!--End of About Article-->
+    
+    
+     <!--Add pic in here-->
+    
+    
+    <!--Start of Sample Songs-->
+    <div class="container-fluid">
+        <article class="audio-section">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="text-center">Sample Songs</h2>
+                </div>
                 <div class="col-xs-12 col-sm-6 col-lg-3">
                     <div class="audio-wrapper">
                         <h3>The Rolling Stones - Miss You</h3>
@@ -170,8 +233,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
     </div>
+    <!--End of Sample Song-->
+    
+    <!--Add pic in here-->
     
     
     <!--Start of Social-->
@@ -235,5 +301,6 @@
     
      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

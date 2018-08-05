@@ -144,9 +144,35 @@ nav.navbar.navbar-inverse {
 img.rs-heading-logo {
     height: 300px;
     width: 300px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
+
+.website-welcome {
+    padding-bottom: 5px;
+    padding-top: 12px;
+}
+
+p.website-welcome {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+span#text {
+    display: none;
+}
+
+.button-center {
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+button#toggle.btn.btn-info {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+    
 
 .audio-wrapper {
     margin-bottom: 10px;
@@ -170,12 +196,6 @@ img.rs-heading-logo {
 
 /*----------------Band Section-------------------*/
 
-
-
-/*.band-members {*/
-/*    height: 600px;*/
-
-/*}*/
 
 
 .media-left {
@@ -222,6 +242,30 @@ p.music-intro {
     font-weight: bolder;
 }
 
+hr.style {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.album-info {
+    margin-top: 30px;
+}
+
+img.media-object-info {
+    border-radius: 6px;
+    height: 400px;
+    width: 450px;
+
+}
+
+.media-text-fix {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
 .media-object-album {
     height: 250px;
     width: 250px;
@@ -248,6 +292,7 @@ img.media-object-album {
 
 div.page-header {
     text-align: center;
+    margin-top: 30px;
 }
 
 button.btn.btn-primary {
@@ -476,7 +521,16 @@ i.fa.fa-youtube {
     img.rs-heading-logo {
         height: 250px;
         width: 250px;
-}
+    }
+    
+    img.media-object-info {
+        height: 350px;
+        width: 400px;
+    }
+    
+    .media-text-fix {
+        padding-right: 5px;
+    }
     
 }
 
@@ -499,9 +553,23 @@ i.fa.fa-youtube {
     }
     
     img.rs-heading-logo {
-    height: 225px;
-    width: 225px;
-}
+        height: 225px;
+        width: 225px;
+    }
+    
+    img.media-object-info {
+        height: 325px;
+        width: 375px;
+    }
+    
+    .media-text-fix {
+        padding-right: 5px;
+    }
+    
+    div.page-header {
+        margin-top: 0px;
+    }
+    
 }
 
 @media (max-width: 420px) {
@@ -525,5 +593,26 @@ i.fa.fa-youtube {
     img.rs-heading-logo {
         height: 175px;
         width: 175px;
-}
+    }
+    
+    img.media-object-info {
+        height: 250px;
+        width: 300px;
+    }
+    
+    .media-text-fix {
+        text-align: center;
+        height: 320px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 60px;
+    }
+    
+    div.page-header {
+        margin-top: 20px;
+    }
+    
+    .album-headings {
+        margin-top: 0;
+    }
 }
