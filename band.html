@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16"/>
     <link rel="stylesheet" href="main.css" type="text/css" />
     <title>The Rolling Stones</title>
 </head>
 <body>
+    
+            <!-- Back up to Top Button -->
+    <a href="#" id="homeBtn"><span class="glyphicon glyphicon-menu-up"></span></a>
+        <!-- End of Back up to Top Button -->
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <!--Logo-->
@@ -30,7 +36,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="band.html">Band</a></li>
-                    <li><a href="#">Music</a></li>
+                    <li><a href="music.html">Music</a></li>
                     <li><a href="bookings.html">Bookings</a></li>
                     <li class="visible-xs" data-toggle="modal" data-target="#signUpModal"><a href="#">Sign Up</a></li>
                 </ul>
@@ -38,7 +44,7 @@
                 <!--Message-->
                 <div class="navbar-header navbar-right hidden-xs">
                     <a href="/Login" class="btn btn-default navbar-btn hvr-grow" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-                    <p class="navbar-text hidden-md hidden-sm"><i>Sign up for monthly updates on events & new music releases!</i></p>
+                    <p class="navbar-text hidden-md hidden-sm"><i>Sign up for monthly updates & new music releases!</i></p>
                 </div>
             </div>
         </div>
@@ -58,10 +64,10 @@
     <!--Start of Section-->
    <div class="container-fluid">
        <section class="band-members">
-                <div class="row">
+                <div class="row carousel-header">
                     <div class="col-xs-12">
                         <div class="page-header">
-                            <h1 class="uppercase">Band Members</h1>
+                            <h1 class="text-center">Band Members</h1>
                         </div>
                     </div>
                 </div>
@@ -127,9 +133,9 @@
     <!--Start of Social-->
         <div class="col-xs-12 social-structure">
             <ul class="list-inline social-links">
-                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.facebook.com/therollingstones/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/RollingStones?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/user/therollingstones" target="_blank"><i class="fa fa-youtube"></i></a></li>
             </ul>
         </div>
 
@@ -152,7 +158,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Sign Up For Monthly Updates on Events & New Music Releases!</h4>
+            <h4 class="modal-title" id="myModalLabel">Sign Up For Monthly Updates & New Music Releases!</h4>
           </div>
           <div class="modal-body">
     <!--Modal End-->
@@ -161,20 +167,20 @@
         <form>
             <div class="form-group">
                 <label for="text">Name</label>
-                <input type="text" class="form-control" id="text" placeholder="Full Name">
+                <input type="text" class="form-control" id="text" placeholder="Full Name" required>
             </div>
             <div class="form-group">
                 <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="joebloggs@example.com">
+                <input type="email" class="form-control" id="email" placeholder="joebloggs@example.com" required>
                 <p class="help-block">We'll never share your email address with any third-party company. </p>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Password">
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
             </div>
             <div class="form-group">
                 <label for="passwordRepeat">Confirm Password</label>
-                <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
+                <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password" required>
             </div>
             <center>
               <button type="submit" class="btn btn-success">Sign Up!</button>

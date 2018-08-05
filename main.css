@@ -3,6 +3,37 @@ body {
     background-color: #fafafa;
 }
 
+/*----------------Top of Page Button-------------------*/
+
+
+#homeBtn {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #00000096;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 8px;
+    z-index: 100;
+    transition-property: width, height, background-color;
+    transition-duration:  .1s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+#homeBtn:hover {
+    background-color: #000000;
+    height: 52px;
+    width: 52px;
+    font-size: 32px;
+}
+
+
+
 /*----------------Nav-------------------*/
 
 img.logo-pic {
@@ -45,7 +76,9 @@ nav.navbar.navbar-inverse {
     padding: 7px;
 }
 
-.navbar-btn:hover {
+.navbar-btn:hover,
+.navbar-btn:active,
+.navbar-btn:focus {
     color: white;
     background-color: #ed2027;
     border-color: #ed2027;
@@ -102,12 +135,37 @@ nav.navbar.navbar-inverse {
 .carousel-header {
     background-color: black;
     width: 100vw;
-}
-
-.home-heading {
+    margin-bottom: 15px;
     color: #fff;
     font-weight: bold;
+    text-align: center;
 }
+
+img.rs-heading-logo {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.audio-wrapper {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.audio-wrapper h3 {
+    font-size: 1.1em;
+}
+
+.audio-pictures {
+    margin-bottom: 8px;
+}
+    
+/*.home-heading {*/
+    
+/*    font-weight: bold;*/
+/*    padding-bottom: 10px;*/
+/*}*/
 
 
 /*----------------Band Section-------------------*/
@@ -118,14 +176,6 @@ nav.navbar.navbar-inverse {
 /*    height: 600px;*/
 
 /*}*/
-
-.page-header {
-    text-align: center;
-}
-
-.page-header h1 {
-    font-weight: bold;
-}
 
 
 .media-left {
@@ -146,11 +196,104 @@ nav.navbar.navbar-inverse {
 }
 
 
+/*----------------Music Section-------------------*/
+
+
+h1.albums {
+    padding-top: 0;
+}
+
+h1.text-center {
+    font-weight: bolder;
+}
+
+.music-intro-column {
+    margin-top: 10px;
+}
+
+.music-intro {
+    padding-bottom: 5px;
+    padding-top: 12px;
+}
+
+
+p.music-intro {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.media-object-album {
+    height: 250px;
+    width: 250px;
+}
+
+img.media-object-album {
+    border-radius: 6px;
+}
+
+.album-headings {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.album-description {
+    font-size: 0.9em;
+    padding-left: 10px;
+}
+
+.media {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+div.page-header {
+    text-align: center;
+}
+
+button.btn.btn-primary {
+    background-color: #ed2027;
+    border-color: #ed2027;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 5px 20px;
+}
+
+button.btn.btn-primary:hover,
+button.btn.btn-primary:active,
+button.btn.btn-primary:focus {
+    color: #fafafa;
+    background-color: #ff0009;
+    border-color: #ff0009;
+}
+
+
+.embed-responsive {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.video-wrapper {
+    margin-top: 10px;
+    font-style: italic;
+    color: #bd9a9ab5;
+    text-decoration: underline;
+}
+
+.glyphicon-chevron-down {
+    top: 0.18em;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+
 /*----------------Bookings Section-------------------*/
 
-.bookings {
-    height: 600px;
-}
+/*.bookings {*/
+/*    height: 600px;*/
+/*}*/
 
 
 form {
@@ -171,7 +314,15 @@ button.btn.btn-success {
     border-color: #ffdc00;
     color: #000;
     font-weight: bold;
-    /*text-transform: uppercase;*/
+    font-size: 1em;
+}
+
+button.btn.btn-success:hover,
+button.btn.btn-success:active,
+button.btn.btn-success:focus {
+    background-color: #ffdc00;
+    border-color: #ffdc00;
+    color: #000;
 }
 
 .help-block {
@@ -183,10 +334,14 @@ button.btn.btn-success {
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 510px;
     min-height: 200px;
     min-width: 300px;
     float: right;
+}
+
+div.col-xs-12.col-md-offset-1.col-md-6.booking-pic {
+    border-radius: 6px;
 }
 
 div.col-xs-12.col-sm-5.col-md-5.jumbotron {
@@ -197,6 +352,7 @@ i.fa.fa-phone-square {
     color: #07bd07;
     font-size: 1.2em;
     padding-right: 3px;
+    padding-top: 3px;
 }
 
 
@@ -237,10 +393,6 @@ div.col-xs-12.social-structure {
     width: 100vw;
 }
 
-.social-links {
-    
-}
-
 .social-links li a i {
     width: 45px;
     height: 45px;
@@ -274,16 +426,37 @@ i.fa.fa-youtube {
 }
 
 
+/*----------------Modal-------------------*/
+
+
+.modal-title {
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
 /*----------------Media Queries-------------------*/
 
 @media (max-width: 1300px) {
     .header-pic {
-        height: 60vh;
+        height: 45vh;
     }
     
      .footer-pic {
         height: 32.5vh;
     }
+    
+    .media-object-album {
+        height: 150px;
+        width: 150px;
+    }
+    
+    img.rs-heading-logo {
+        height: 250px;
+        width: 250px;
+}
+    
 }
 
 @media (max-width: 993px) {
@@ -298,7 +471,13 @@ i.fa.fa-youtube {
     .media-object {
         height: 175px;
         width: 175px;
+    }
+    
+    img.rs-heading-logo {
+        height: 250px;
+        width: 250px;
 }
+    
 }
 
 @media (max-width: 769px) {
@@ -318,6 +497,11 @@ i.fa.fa-youtube {
     .booking-pic {
         margin: auto 0;
     }
+    
+    img.rs-heading-logo {
+    height: 225px;
+    width: 225px;
+}
 }
 
 @media (max-width: 420px) {
@@ -332,5 +516,14 @@ i.fa.fa-youtube {
     .media-object {
         height: 75px;
         width: 75px;
+    }
+    
+    .booking-pic {
+        height: 250px;
+    }
+    
+    img.rs-heading-logo {
+        height: 175px;
+        width: 175px;
 }
 }
