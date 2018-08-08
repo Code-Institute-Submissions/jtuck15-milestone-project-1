@@ -26,3 +26,11 @@
                       By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=56441043
                       https://en.wikipedia.org/wiki/The_Rolling_Stones_discography
                       https://www.galeria-frankkrueger.com/en/shop/pop-art/the-rolling-stones/
+                      https://www.biography.com/people/groups/the-rolling-stones
+                      https://codepen.io/desirecode/pen/MJPJqV/
+                      https://codepen.io/legendaryPower/pen/dvJQvB
+                      https://en.wikipedia.org/wiki/Mick_Jagger
+                      https://en.wikipedia.org/wiki/Keith_Richards
+                      https://en.wikipedia.org/wiki/Charlie_Watts
+                      https://developers.google.com/web/fundamentals/native-hardware/click-to-call/
+                      
