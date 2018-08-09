@@ -190,10 +190,13 @@ p.website-welcome {
     font-weight: bolder;
 }
 
-span#text {
+span#text,
+span#word,
+span#info,
+span#moreinfo,
+span#letters {
     display: none;
 }
-
 
 .button-center {
     text-align: center;
@@ -201,7 +204,11 @@ span#text {
     
 }
 
-button#toggle.btn.btn-info {
+button#toggle.btn.btn-info,
+button#switch.btn.btn-info,
+button#change.btn.btn-info,
+button#touch.btn.btn-info,
+button#press.btn.btn-info {
     font-size: 1.1em;
     font-weight: bold;
     background-color: #ed2027;
