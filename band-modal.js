@@ -68,7 +68,7 @@ span.onclick = function() {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-// Get the modal, Charlie Watts
+// Get the modal, Ronnie Wood
 var modalFour = document.getElementById('woodModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption

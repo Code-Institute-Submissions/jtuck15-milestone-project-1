@@ -92,6 +92,24 @@ nav.navbar.navbar-inverse {
     background-color: #0c0c0c;
 }
 
+li.active a.hvr-grow {
+    text-shadow: 
+    0px 18px 30px rgba(255, 255, 255, 1), 
+    -18px 0px 30px rgba(255, 255, 255, 1), 
+    0px -18px 30px rgba(255, 255, 255, 1), 
+    18px 0px 30px rgba(255, 255, 255, 1), 
+    15px -16px 30px rgba(255, 255, 255, 1), 
+    15px 16px 30px rgba(255, 255, 255, 1), 
+    -15px 16px 30px rgba(255, 255, 255, 1), 
+    -15px -16px 30px rgba(255, 255, 255, 1);
+    background-color: #0c0c0c;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #0c0c0c;
+}
+
 .navbar-btn {
     border: 0;
     border-radius: 16px;
@@ -194,7 +212,8 @@ span#text,
 span#word,
 span#info,
 span#moreinfo,
-span#letters {
+span#letters,
+span#album {
     display: none;
 }
 
@@ -214,8 +233,30 @@ button#press.btn.btn-info {
     background-color: #ed2027;
     border-color: #ed2027;
     border-radius: 12px;
+    /*box-shadow: 0 3px 20px 0 #0000003b;*/
+}
+
+button#toggle.btn.btn-info:hover,
+button#toggle.btn.btn-info:active,
+button#toggle.btn.btn-info:focus,
+button#switch.btn.btn-info:hover,
+button#switch.btn.btn-info:active,
+button#switch.btn.btn-info:focus,
+button#change.btn.btn-info:hover,
+button#change.btn.btn-info:active,
+button#change.btn.btn-info:focus,
+button#touch.btn.btn-info:hover,
+button#touch.btn.btn-info:active,
+button#touch.btn.btn-info:focus,
+button#press.btn.btn-info:hover,
+button#press.btn.btn-info:active,
+button#press.btn.btn-info:focus {
+    color: #fafafa;
+    background-color: #ff0009;
+    border-color: #ff0009;
     box-shadow: 0 3px 20px 0 #0000003b;
 }
+
 
 .homepage-container {
     width: 100vw;
@@ -286,22 +327,6 @@ button#press.btn.btn-info {
     font-size: 1em;
 }
 
-summary {
-    border: 1px solid #ed2027;
-    width: 127px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 6px;
-    background-color: #ed2027;
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-summary:hover {
-    cursor: pointer;
-}
 
 
 /*----------------Music Section-------------------*/
@@ -383,23 +408,14 @@ div.page-header {
     margin-top: 30px;
 }
 
-button.btn.btn-primary {
+button#push.btn.btn-info {
+    font-size: 1.7em;
+    font-weight: bolder;
     background-color: #ed2027;
     border-color: #ed2027;
-    color: white;
-    font-size: 1.8em;
-    font-weight: bold;
-    border-radius: 6px;
-    padding: 5px 20px;
-}
-
-button.btn.btn-primary:hover,
-button.btn.btn-primary:active,
-button.btn.btn-primary:focus {
-    color: #fafafa;
-    background-color: #ff0009;
-    border-color: #ff0009;
+    border-radius: 12px;
     box-shadow: 0 3px 20px 0 #0000003b;
+    margin-bottom: 15px;
 }
 
 
@@ -441,9 +457,9 @@ form {
 
 
 
-.form-group [type="textarea"] {
-    height: 200px;
-}
+/*.form-group [type="textarea"] {*/
+/*    height: 200px;*/
+/*}*/
 
 button.btn.btn-success {
     background-color: #ffdc00;
@@ -891,5 +907,11 @@ i.fa.fa-youtube {
         height: 350px;
         margin-top: 30px;
         border-radius: 12px;
+    }
+    
+    li.active a.hvr-grow {
+    text-shadow: 0px 5px 30px rgba(255, 255, 255, 1), 5px 0px 30px rgba(255, 255, 255, 1), 0px -5px 30px rgba(255, 255, 255, 1), 0px 5px 30px rgba(255, 255, 255, 1), 10px -10px 30px rgba(255, 255, 255, 1), 10px 10px 30px rgba(255, 255, 255, 1), -10px 10px 30px rgba(255, 255, 255, 1), -10px -10px 30px rgba(255, 255, 255, 1);
 }
 }
+
+

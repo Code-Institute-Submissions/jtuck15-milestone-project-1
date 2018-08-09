@@ -16,6 +16,23 @@ $(document).ready(function() {
   });
 });
 
+// Albums Button in Music Page
+
+$(document).ready(function() {
+  $("#push").click(function() {
+    var songs = $("#push").text();
+    if (songs == "Albums ↓") {
+      //Stuff to do when btn is in the read more state
+      $("#push").text("Albums ↑");
+      $("#album").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#push").text("Albums ↓");
+      $("#album").slideUp();
+    }
+  });
+});
+
 // Read More Button for Mick Jagger
 
 $(document).ready(function() {
