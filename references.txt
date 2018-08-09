@@ -33,4 +33,5 @@
                       https://en.wikipedia.org/wiki/Keith_Richards
                       https://en.wikipedia.org/wiki/Charlie_Watts
                       https://developers.google.com/web/fundamentals/native-hardware/click-to-call/
+                      https://www.w3schools.com/howto/howto_css_modal_images.asp
                       

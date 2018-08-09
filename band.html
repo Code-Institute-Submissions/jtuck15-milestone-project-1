@@ -75,7 +75,8 @@
                     <div class="col-xs-12">
                         <div class="media">
                             <div class="media-left">
-                                <img src="images/mickjagger.jpg" class="img-circle media-object">
+                                <!--Trigger the Modal-->
+                                <img id="jaggerImg" src="images/mickjagger.jpg" class="img-circle media-object" alt="Legendary Vocalist 'Mick Jagger'">
                             </div>
                             <div class="media-body">
                                 <h2>Mick Jagger</h2>
@@ -109,7 +110,7 @@
                     <div class="col-xs-12">
                         <div class="media">
                             <div class="media-left">
-                                <img src="images/keithrichards2.jpg" class="img-circle media-object">
+                                <img id="richardsImg" src="images/keithrichards2.jpg" class="img-circle media-object" alt="One of the Greatest Guitarists of all time, 'Keith Richards'">
                             </div>
                             <div class="media-body">
                                 <h2>Keith Richards</h2>
@@ -152,7 +153,7 @@
                     <div class="col-xs-12">
                         <div class="media">
                             <div class="media-left">
-                                <img src="images/charliewatts.jpg" class="img-circle media-object">
+                                <img id="wattsImg" src="images/charliewatts.jpg" class="img-circle media-object" alt="Once quoted as Rock's Greatest Drummer, 'Charlie Watts'">
                             </div>
                             <div class="media-body">
                                 <h2>Charlie Watts</h2>
@@ -197,7 +198,7 @@
                     <div class="col-xs-12">
                         <div class="media">
                             <div class="media-left">
-                                <img src="images/ronniewood.jpg" class="img-circle media-object">
+                                <img id="woodImg" src="images/ronniewood.jpg" class="img-circle media-object" alt="Inducted into the Hall of Fame twice, Guitarist and Rock Legend, 'Ronnie Wood'">
                             </div>
                             <div class="media-body">
                                 <h2>Ronnie Wood</h2>
@@ -262,7 +263,7 @@
     </div>
     <!--End of Footer-->
     
-    <!-- Modal -->
+    <!-- Sign up Modal -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -271,36 +272,111 @@
             <h4 class="modal-title" id="myModalLabel">Sign Up For Monthly Updates & New Music Releases!</h4>
           </div>
           <div class="modal-body">
-    <!--Modal End-->
+         <!--Form Start-->
+            <form>
+                <div class="form-group">
+                    <label for="text">Name</label>
+                    <input type="text" class="form-control" id="text" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="joebloggs@example.com" required>
+                    <p class="help-block">We'll never share your email address with any third-party company. </p>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <label for="passwordRepeat">Confirm Password</label>
+                    <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password" required>
+                </div>
+                <center>
+                  <button type="submit" class="btn btn-success">Sign Up!</button>
+                </center>
+            </form>
+        <!--Form End-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Sign up Modal-->
     
-    <!--Form Start-->
-        <form>
-            <div class="form-group">
-                <label for="text">Name</label>
-                <input type="text" class="form-control" id="text" placeholder="Full Name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="joebloggs@example.com" required>
-                <p class="help-block">We'll never share your email address with any third-party company. </p>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Password" required>
-            </div>
-            <div class="form-group">
-                <label for="passwordRepeat">Confirm Password</label>
-                <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password" required>
-            </div>
-            <center>
-              <button type="submit" class="btn btn-success">Sign Up!</button>
-            </center>
-        </form>
-    <!--Form End-->
+    <!--Mick Jagger Modal-->
+
+    <!-- The Modal -->
+    <div id="jaggerModal" class="modal-band">
+    
+      <!-- The Close Button -->
+      <span class="close-band">&times;</span>
+    
+      <!-- Modal Content (The Image) -->
+      <img class="modal-info" id="img01">
+    
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+    
+    <!--End of Mick Jagger Modal-->
+    
+    
+    <!--Keith Richards Modal-->
+
+    <!-- The Modal -->
+    <div id="richardsModal" class="modal-band">
+    
+      <!-- The Close Button -->
+      <span class="close-two">&times;</span>
+    
+      <!-- Modal Content (The Image) -->
+      <img class="modal-two" id="img02">
+    
+      <!-- Modal Caption (Image Text) -->
+      <div id="captionKR"></div>
+    </div>
+    
+    <!--End of Keith Richards Modal-->
+    
+    
+    <!--Charlie Watts Modal-->
+
+    <!-- The Modal -->
+    <div id="wattsModal" class="modal-band">
+    
+      <!-- The Close Button -->
+      <span class="close-three">&times;</span>
+    
+      <!-- Modal Content (The Image) -->
+      <img class="modal-three" id="img03">
+    
+      <!-- Modal Caption (Image Text) -->
+      <div id="captionCW"></div>
+    </div>
+    
+    <!--End of Charlie Watts Modal-->
+    
+    
+    <!--Ronnie Wood Modal-->
+
+    <!-- The Modal -->
+    <div id="woodModal" class="modal-band">
+    
+      <!-- The Close Button -->
+      <span class="close-four">&times;</span>
+    
+      <!-- Modal Content (The Image) -->
+      <img class="modal-four" id="img04">
+    
+      <!-- Modal Caption (Image Text) -->
+      <div id="captionRW"></div>
+    </div>
+    
+    <!--End of Ronnie Wood Modal-->
     
     
      <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
      <script type="text/javascript" src="script.js"></script>
+     <script type="text/javascript" src="band-modal.js"></script>
 </body>
 </html>
