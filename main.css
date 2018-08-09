@@ -895,8 +895,8 @@ i.fa.fa-youtube {
     #richardsImg,
     #wattsImg,
     #woodImg {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
     
     .modal-info,
@@ -910,8 +910,38 @@ i.fa.fa-youtube {
     }
     
     li.active a.hvr-grow {
-    text-shadow: 0px 5px 30px rgba(255, 255, 255, 1), 5px 0px 30px rgba(255, 255, 255, 1), 0px -5px 30px rgba(255, 255, 255, 1), 0px 5px 30px rgba(255, 255, 255, 1), 10px -10px 30px rgba(255, 255, 255, 1), 10px 10px 30px rgba(255, 255, 255, 1), -10px 10px 30px rgba(255, 255, 255, 1), -10px -10px 30px rgba(255, 255, 255, 1);
+    text-shadow: 
+        0px 5px 30px rgba(255, 255, 255, 1), 
+        5px 0px 30px rgba(255, 255, 255, 1), 
+        0px -5px 30px rgba(255, 255, 255, 1), 
+        0px 5px 30px rgba(255, 255, 255, 1), 
+        10px -10px 30px rgba(255, 255, 255, 1), 
+        10px 10px 30px rgba(255, 255, 255, 1), 
+        -10px 10px 30px rgba(255, 255, 255, 1), 
+        -10px -10px 30px rgba(255, 255, 255, 1);
 }
 }
+
+/*----------------Media Queries Band Section-------------------*/
+
+@media (max-width: 420px) {
+    img#jaggerImg,
+    img#richardsImg,
+    img#wattsImg,
+    img#woodImg {
+        margin: auto;
+    }
+    
+    .band{
+        display: block;
+        padding-bottom: 0;
+    }
+    
+    .media-body.summary {
+        text-align: center;
+    }
+}
+
+
 
 
