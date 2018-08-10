@@ -861,6 +861,10 @@ i.fa.fa-youtube {
         height: 17.5vh;
     }
     
+    .band-paragraph {
+        text-align: center;
+    }
+    
     .media-object {
         height: 75px;
         width: 75px;
