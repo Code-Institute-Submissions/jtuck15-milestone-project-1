@@ -8,7 +8,7 @@
 
 body {
     font-size: 16px;
-    background-color: #dcd7d7;
+    background-color: #fff;
 }
 
 h1 {
@@ -370,7 +370,6 @@ hr.style {
 }
 
 img.media-object-info {
-    border: 2px solid #8c8989;
     border-radius: 6px;
     height: 400px;
     width: 450px;
@@ -433,7 +432,8 @@ button#push.btn.btn-info {
 .video-wrapper {
     margin-top: 10px;
     font-style: italic;
-    color: #fff;
+    color: #000;
+    opacity: 0.5;
     text-decoration: underline;
 }
 
