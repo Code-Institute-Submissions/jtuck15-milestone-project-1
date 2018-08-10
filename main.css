@@ -940,6 +940,10 @@ i.fa.fa-youtube {
     .media-body.summary {
         text-align: center;
     }
+    
+    blockquote.bio.hide-mobile {
+        border-left: none;
+    }
 }
 
 
