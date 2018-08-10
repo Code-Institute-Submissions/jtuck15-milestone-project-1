@@ -269,15 +269,15 @@ button#press.btn.btn-info:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     position: relative;
 }
     
 
 .about-band,
 .sample-songs {
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 
@@ -301,8 +301,8 @@ button#press.btn.btn-info:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -365,7 +365,12 @@ hr.style {
     margin-top: 30px;
 }
 
+.media.jagger-section {
+    margin-top: 20px;
+}
+
 img.media-object-info {
+    border: 2px solid #8c8989;
     border-radius: 6px;
     height: 400px;
     width: 450px;
@@ -428,7 +433,7 @@ button#push.btn.btn-info {
 .video-wrapper {
     margin-top: 10px;
     font-style: italic;
-    color: #bd9a9ab5;
+    color: #fff;
     text-decoration: underline;
 }
 
