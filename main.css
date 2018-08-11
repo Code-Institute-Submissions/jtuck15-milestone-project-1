@@ -1,6 +1,6 @@
 /*----------------Fonts-------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Acme|Poppins:400,600|Dekko|Kanit|Special+Elite|Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Acme|Poppins|Dekko|Kanit|Special+Elite|Dancing+Script:400,700');
 
 /*----------------Body/Font Styling-------------------*/
 
@@ -316,7 +316,7 @@ button#press.btn.btn-info:focus {
     color: #fafafa;
     background-color: #ff0009;
     border-color: #ff0009;
-    box-shadow: 0 3px 20px 0 #0000003b;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.23);
 }
 
 
@@ -489,7 +489,7 @@ button#push.btn.btn-info {
     background-color: #ed2027;
     border-color: #ed2027;
     border-radius: 12px;
-    box-shadow: 0 3px 20px 0 #0000003b;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.23);
     margin-bottom: 15px;
 }
 
@@ -524,18 +524,12 @@ button#push.btn.btn-info {
 
 form {
     padding: 15px 25px;
-    border: 2px solid #bec3c147;
+    border: 2px solid rgba(190, 195, 193, 0.28);
     border-radius: 8px;
     margin-top: 20px;
     margin-bottom: 30px;
-    background-color: #dde2e052;
+    background-color: rgba(221, 226, 224, 0.32);
 }
-
-
-
-/*.form-group [type="textarea"] {*/
-/*    height: 200px;*/
-/*}*/
 
 button.btn.btn-success {
     background-color: #ffdc00;
@@ -579,7 +573,7 @@ div.col-xs-12.col-md-offset-1.col-md-6.booking-pic {
 }
 
 div.col-xs-12.col-md-5.jumbotron {
-    background-color: #bec3c147;
+    background-color: rgba(190, 195, 193, 0.28);
     margin-top: 10px;
     font-family: 'Baloo Tamma', sans-serif;
 }
