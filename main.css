@@ -1,22 +1,46 @@
 /*----------------Fonts-------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma|Acme|Poppins:400,600|Dekko|Special+Elite|Dancing+Script:400,700');
 
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
-
-/*----------------Body-------------------*/
+/*----------------Body/Font Styling-------------------*/
 
 
 body {
     font-size: 16px;
     background-color: #fff;
+    /*font-family: 'Dekko', sans-serif;*/
 }
 
-h1 {
+h1.text-center {
     font-family: 'Dancing Script', cursive;
-    font-weight: bolder;
-    font-size: 2.8em;
-    
+    font-weight: 700;
+    font-size: 3.0em;
 }
+
+.media-body.summary>h2 {
+    font-family: 'Special Elite', sans-serif;
+    font-weight: bolder;
+    font-size: 2.2em;
+}
+
+blockquote.bio.hide-mobile,
+.band-paragraph,
+.audio-wrapper {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+}
+
+.website-welcome,
+.music-intro {
+    font-family: 'Baloo Tamma', sans-serif;
+    font-size: 1.2em;
+}
+
+.video-wrapper {
+    font-family: 'Dekko',sans-serif;
+}
+
+
 
 /*----------------Top of Page Button-------------------*/
 
@@ -204,7 +228,10 @@ img.rs-heading-logo {
 .website-welcome {
     padding-bottom: 5px;
     padding-top: 12px;
-    margin-top: 14px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    color: #ed2027
 }
 
 p.website-welcome {
@@ -282,6 +309,9 @@ button#press.btn.btn-info:focus {
 .about-band,
 .sample-songs {
     margin-top: 15px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: 2.2em;
 }
 
 
@@ -348,6 +378,12 @@ h1.text-center {
     margin-top: 10px;
 }
 
+.jumbotron.text-center.music-intro {
+    background-color: #fff;
+    margin-bottom: 5px;
+    color: #ed2027;
+}
+
 .music-intro {
     padding-bottom: 5px;
     padding-top: 12px;
@@ -358,6 +394,7 @@ p.music-intro {
     font-size: 1.5em;
     font-weight: bolder;
 }
+
 
 hr.style {
     border: 0;
@@ -461,7 +498,7 @@ form {
     border-radius: 8px;
     margin-top: 20px;
     margin-bottom: 30px;
-    background-color: #eae8e814;
+    background-color: #dde2e052;
 }
 
 
@@ -510,11 +547,19 @@ div.col-xs-12.col-md-offset-1.col-md-6.booking-pic {
 div.col-xs-12.col-md-5.jumbotron {
     background-color: #bec3c147;
     margin-top: 10px;
+    font-family: 'Baloo Tamma', sans-serif;
+}
+
+div.col-xs-12.col-md-5.jumbotron>h2 {
+    font-size: 2.2em;
 }
 
 h2.contact-us {
     margin-top: 30px;
     text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    font-size: 2.2em;
 }
 
 i.fa.fa-phone-square {
