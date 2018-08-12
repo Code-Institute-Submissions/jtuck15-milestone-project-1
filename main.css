@@ -8,7 +8,6 @@
 body {
     font-size: 16px;
     background-color: #fff;
-    /*font-family: 'Dekko', sans-serif;*/
 }
 
 .nav.navbar-nav>li {
@@ -220,9 +219,6 @@ li.active a.hvr-grow {
 
 /*----------------Home-Page Section-------------------*/
 
-.home-page {
-    height: 600px;
-}
 
 .carousel {
     margin-bottom: 40px;
@@ -517,10 +513,6 @@ button#push.btn.btn-info {
 
 /*----------------Bookings Section-------------------*/
 
-/*.bookings {*/
-/*    height: 600px;*/
-/*}*/
-
 
 form {
     padding: 15px 25px;
@@ -603,7 +595,6 @@ i.fa.fa-phone-square {
 
 .footer-logo {
     display: block;
-    /*position: absolute;*/
     left: 0;
     bottom: 0;
     padding-left: 0;
@@ -807,8 +798,6 @@ select {
         width: 100%;
     }
 }
-
-
 
 
 /*----------------Media Queries-------------------*/
