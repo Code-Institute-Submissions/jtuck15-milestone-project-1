@@ -30,7 +30,7 @@ https://github.com/jtuck15/milestone-project-1/blob/master/images/home%20wirefra
 ## Features
 
 ### [Home Page](https://jtuck15.github.io/milestone-project-1/)
-- Carousel - this is a nice little display which allows user to view different pictures of the band when they visit the  
+- Carousel - this is a nice little display which allows user to view different pictures of the band when they visit the home page 
 - Sample Songs - allows users to listen to some songs by The Rolling Stones and it will also allow you to download the songs on some browsers
 
 ### [Band Page](https://jtuck15.github.io/milestone-project-1/band.html)
