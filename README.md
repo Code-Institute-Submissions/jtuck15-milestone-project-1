@@ -58,12 +58,12 @@ https://github.com/jtuck15/milestone-project-1/blob/master/images/home%20wirefra
 
 
 
-#### Issues/Bugs
+### Issues/Bugs
 I had a major issue with a fixed background on iOS devices. I had images set up on my home page that were fixed when I scroll up and down and they looked good on every device except for iOS. It was like the image was zoomed in so far and strecthed on both iPhones and iPads. I did a lot of research to try and fix this but to no avail. I found a couple of posts with suggestions for a fix, but it only worked for the whole background of the page and not just a section of the page.
 
 I also had an issue with text-shadow on Samsung Galaxy S6 devices. When a user clicked on a certain page e.g. Home; the Home text would display with a shadow effect like a spotlight was shining on the words. It looked well on iPhones and Samsung Galaxy S8 but was quite distorted on the Galaxy 6 S6, which is why I removed it from mobile devices. It is still set up for tablets, laptops and desktops.
 
-#### Validation
+### Validation
 All files passed validation testing at https://validator.w3.org/nu/#textarea
 
 ## Deployment
@@ -72,8 +72,30 @@ My website is currently deployed on Github Pages - https://jtuck15.github.io/mil
 I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which allows you to host the website on GitHub Pages.
 
 ## Credits
-#### Content
+### Content
 The text for the section "About The Band" was taken from the Wikipedia article [The Rolling Stones](https://en.wikipedia.org/wiki/The_Rolling_Stones)
 
+The text for the section "Mick Jagger" was taken from the Wikipedia article [Mick Jagger](https://en.wikipedia.org/wiki/Mick_Jagger)
+
+The text for the section "Keith Richards" was taken from the Wikipedia article [Keith Richards](https://en.wikipedia.org/wiki/Keith_Richards)
+
+The text for the section "Charlie Watts" was taken from the Wikipedia article [Charlie Watts](https://en.wikipedia.org/wiki/Charlie_Watts)
+
+The text for the section "Ronnie Wood" was taken from the Wikipedia article [Ronnie Wood](https://en.wikipedia.org/wiki/Ronnie_Wood)
+
+### Media Content
+The photos used on this site were obtained from various sources and the references can be found [here](https://github.com/jtuck15/milestone-project-1/blob/master/references.txt)
+
+The videos used on this site were taken from the [The Rolling Stones official Youtube channel](https://www.youtube.com/channel/UCB_Z6rBg3WW3NL4-QimhC2A)
+
+### Acknowledgements
+- [Code Institute](https://www.codeinstitute.net/)
+- Rohan Hapani - His smooth scroll design using JQuery on [Codepen](https://codepen.io/desirecode/pen/MJPJqV/) really helped me with my back to top button as I felt without the use of JQuery, it didn't look too appealing when you click the button and it jumps straight back to the top.
+- Legendary - I took inspiration from this read more/read less button using JQuery on [Codepen](https://codepen.io/legendaryPower/pen/dvJQvB) as I felt that the sections on the band members page were very long on a mobile. This helped shorten the length and give the user the option to read more and also read less.
+- [W3schools.com](https://www.w3schools.com/howto/howto_css_modal_images.asp) - I used their modal description to add modal images to each of the band members pictures on the Band page.
+- [Bootstrap](https://getbootstrap.com/docs/3.3/javascript/#carousel) - I used the carousel example on Bootstrap to set up my carousel of pictures on the Home page.
+
+### References
+Further references can be found [here](https://github.com/jtuck15/milestone-project-1/blob/master/references.txt)
 
 
