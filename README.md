@@ -78,7 +78,7 @@ I have thoroughly tested this website and was unable to find any broken links wi
 ### Issues/Bugs
 I had a major issue with a fixed background on iOS devices. I had images set up on my home page that were fixed when I scroll up and down and they looked good on every device except for iOS. It was like the image was zoomed in so far and stretched on both iPhones and iPads. I did a lot of research to try and fix this but to no avail. I found a couple of posts with suggestions for a fix, but it only worked for the whole background of the page and not just a section of the page.
 
-I also had an issue with text-shadow on Samsung Galaxy S6 devices. When a user clicked on a certain page e.g. Home; the Home text would display with a shadow effect like a spotlight was shining on the words. It looked well on iPhones and Samsung Galaxy S8 but was quite distorted on the Galaxy 6 S6, which is why I removed it from mobile devices. It is still set up for tablets, laptops and desktops.
+I also had an issue with text-shadow on Samsung Galaxy S6 devices. When a user clicked on a certain page e.g. Home; the Home text would display with a shadow effect like a spotlight was shining on the words. It looked well on iPhones and Samsung Galaxy S8 but was quite distorted on the Galaxy S6, which is why I removed it from mobile devices. It is still set up for tablets, laptops and desktops.
 
 ### Validation
 All files passed validation testing at https://validator.w3.org/nu/#textarea
